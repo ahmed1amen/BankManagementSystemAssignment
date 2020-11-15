@@ -1,0 +1,5 @@
+  Employee.cpp
+C:\Users\Islam Abdelbasset\source\repos\bank_M_System\bank_M_System\Employee.h(18,12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Islam Abdelbasset\source\repos\bank_M_System\bank_M_System\Employee.cpp(14,11): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Islam Abdelbasset\source\repos\bank_M_System\bank_M_System\Employee.cpp(49): warning C4715: 'Employee::get_last_index_Employee': not all control paths return a value
+  bank_M_System.vcxproj -> C:\Users\Islam Abdelbasset\source\repos\bank_M_System\Debug\bank_M_System.exe

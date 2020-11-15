@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="342431b3-fa8d-4b03-9e40-35ae6b257754" name="Default Changelist" comment="" />
+    <list default="true" id="342431b3-fa8d-4b03-9e40-35ae6b257754" name="Default Changelist" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +12,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kLaxJZQaCiNA2czLE29hPMSPzZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,17 +47,42 @@
       <option name="presentableId" value="Default" />
       <updated>1605482579396</updated>
       <workItem from="1605482583432" duration="97000" />
+      <workItem from="1605482714228" duration="355000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1605482775643</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605482775643</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="631" y="291" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605482803828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="631" y="291" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605482803828" />
     <state x="177" y="71" width="1582" height="888" key="SettingsEditor" timestamp="1605482684627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="177" y="71" width="1582" height="888" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605482684627" />
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1605482782417">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605482782417" />
+    <state x="714" y="395" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605482745146">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="395" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605482745146" />
     <state x="539" y="5" key="search.everywhere.popup" timestamp="1605482628629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

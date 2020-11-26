@@ -32,33 +32,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="342431b3-fa8d-4b03-9e40-35ae6b257754" name="Default Changelist" comment="README.MD">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="342431b3-fa8d-4b03-9e40-35ae6b257754" name="Default Changelist" comment="Refactoring">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Account.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Account.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Admin.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Admin.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Employee.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Employee.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Encrypt.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Encrypt.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/FileOps.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/FileOps.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Menu.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Menu.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Menu_Main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Menu_Main.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Person.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Person.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/Welcome.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Welcome.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.exe.recipe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.log" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.tlog/bank_M_System.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.tlog/bank_M_System.lastbuildstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.tlog/link.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.tlog/link.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/vc142.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/vc142.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank_M_System.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/bank_M_System.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank_M_System.vcxproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/bank_M_System.vcxproj.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +47,6 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -86,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -129,6 +104,7 @@
       <workItem from="1605484002545" duration="1185000" />
       <workItem from="1605485352636" duration="872000" />
       <workItem from="1605486412977" duration="741000" />
+      <workItem from="1606434849912" duration="291000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1605482775643</created>
@@ -151,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605483599295</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactoring">
+      <created>1606434878421</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606434878421</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,9 +153,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="init commit" />
     <MESSAGE value="README.MD" />
-    <option name="LAST_COMMIT_MESSAGE" value="README.MD" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605486047478">
@@ -195,10 +181,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="569" y="261" width="930" height="540" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605484858497" />
-    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1605483602719">
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1606434895655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605483602719" />
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606434895655" />
     <state x="714" y="395" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605482745146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -207,16 +193,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="539" y="5" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605486081418" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Account.cpp</url>
-          <line>6</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

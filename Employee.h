@@ -1,13 +1,17 @@
 #pragma once
 #include <iostream>
 #include "Person.h"
+#include "nlohmann/json.hpp"
+using json = nlohmann::json;
 class Employee :public Person
 {
+	
 private:
 	int salary;
 	int designation;
 	int age;
 	int experience;
+	
 public:
 
 	Employee()
@@ -16,17 +20,19 @@ public:
 		age = 0;
 		experience = 0;
 		salary = 0.0;
+
 	}
 	/*~Accounts() {}*/
 	void setDesignation(int);
 	void setAge(int);
 	void setExperience(int);
 	void setSalary(double);
-
 	int getDesignation();
 	int getAge();
 	int getExperience();
 	double getSalary();
+	json getJson();
+	
 
 	void createEmployee(); 	//function for openning new Employee
 	void search_Employee(int); //function to search details of perticular user

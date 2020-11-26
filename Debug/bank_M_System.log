@@ -1,5 +1,14 @@
-  Employee.cpp
-C:\Users\Islam Abdelbasset\source\repos\bank_M_System\bank_M_System\Employee.h(18,12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Islam Abdelbasset\source\repos\bank_M_System\bank_M_System\Employee.cpp(14,11): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Islam Abdelbasset\source\repos\bank_M_System\bank_M_System\Employee.cpp(49): warning C4715: 'Employee::get_last_index_Employee': not all control paths return a value
-  bank_M_System.vcxproj -> C:\Users\Islam Abdelbasset\source\repos\bank_M_System\Debug\bank_M_System.exe
+﻿  Employee.cpp
+E:\c++bank\s\Employee.h(22,12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\c++bank\s\helper.cpp(22,10): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+E:\c++bank\s\helper.cpp(35,11): warning C4834: discarding return value of function with 'nodiscard' attribute
+E:\c++bank\s\Employee.cpp(19,11): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  FileOps.cpp
+E:\c++bank\s\Employee.h(22,12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\c++bank\s\FileOps.cpp(110,7): warning C4101: 'buff': unreferenced local variable
+E:\c++bank\s\FileOps.cpp(576,7): warning C4101: 'tr_date': unreferenced local variable
+E:\c++bank\s\FileOps.cpp(885,7): warning C4101: 'buff': unreferenced local variable
+E:\c++bank\s\FileOps.cpp(985,12): warning C4129: 'E': unrecognized character escape sequence
+  Generating Code...
+E:\c++bank\s\Employee.cpp(71): warning C4715: 'Employee::get_last_index_Employee': not all control paths return a value
+  bank_M_System.vcxproj -> E:\c++bank\s\Debug\bank_M_System.exe

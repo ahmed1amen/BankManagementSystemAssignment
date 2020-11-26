@@ -88,11 +88,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -145,6 +149,7 @@
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Encrypt.cpp" />
     <ClCompile Include="FileOps.cpp" />
+    <ClCompile Include="helper.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Menu_Main.cpp" />
     <ClCompile Include="Person.cpp" />

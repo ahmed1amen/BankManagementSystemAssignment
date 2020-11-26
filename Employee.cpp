@@ -7,10 +7,15 @@
 #include <string>
 #include <Windows.h>
 #include <sstream>  
+#include "helper.cpp"
+#include "nlohmann/json.hpp"
+#include "FileOps.h"
 using namespace std;
+using json = nlohmann::json;
 Employee e;
 void Employee::setSalary(double s)
 {
+
 	salary = s;
 }
 void Employee::setDesignation(int des)
@@ -31,7 +36,24 @@ int Employee::getAge() { return  age; }
 int Employee::getExperience() { return  experience; }
 double Employee::getSalary() { return salary; }
 
-int Employee::get_last_index_Employee() 
+json Employee::getJson()
+{
+
+	json employee;
+
+
+	employee["fullName"] = Employee::get_fname() + Employee::get_lname();
+	employee["phone"] = Employee::get_phone();
+	employee["dataOfBirthday"] = Employee::get_dataOfBirthday();
+	employee["designation"] = Employee::getDesignation();
+	employee["age"] = Employee::getAge();
+	employee["experience"] = Employee::getExperience();
+	employee["type"] = Employee::getType();
+	employee["password"] = Employee::get_pass();
+	employee["salary"] = Employee::getSalary();
+	return employee;
+}
+int Employee::get_last_index_Employee()
 {
 	ifstream infile("number_Employee.txt");
 	string sLine;
@@ -45,7 +67,7 @@ int Employee::get_last_index_Employee()
 		int last = stoi(sLine);
 		return last++;
 	}
-	catch (exception e){}
+	catch (exception e) {}
 }
 
 void Employee::number_system_put_Employee(int n1)
@@ -54,100 +76,132 @@ void Employee::number_system_put_Employee(int n1)
 	ofstream number_write("number_Employee.txt", ios::out);
 	number_write << n1;
 }
+
+
+
 void Employee::createEmployee()
 {
-	string fname;
-	string lname;
-	string phone;
-	string data_of_birthday;
-	string type;
-	int password;
+
+	//	std::ifstream i("file.json");
+
+	//json j = {
+	//	{
+	//"employees" ,
+	//	{
+
+	//  {"ID", 12},
+	//  {"Username", "ahmed1amen"},
+	//  {"Password", "'1pi23up9eas7dyh238o4u8qwer12@#$%@!@#"},
+	//  {"Full Name", "Ahmed Amen Ramadan"},
+	//  {"Phone", "01066104107"},
+	//  {"Date Of Birth", "16-12-1997"},
+	//  {"Type", "Saving"},
+	//  {"Salary", 1000.550}
+	//  },
+
+	//	}
+
+
+
+	//};
+
+
+	//std::ofstream o("database.json");
+	//o << std::setw(4) << j << std::endl;
+
+	/*json child = {
+
+	  {"ID", 12},
+	  {"Username", "a brand new Object"},
+	  {"Password", "a brand new Object"},
+	  {"Full Name", "a brand new Object"},
+	  {"Phone", "a brand new Object"},
+	  {"Date Of Birth", "a brand new Object"},
+	  {"Type", "a brand new Object"},
+	  {"Salary", 9999999999}
+
+		};
+
+
+	std::ifstream i("database.json");
+	json j;
+	i >> j;
+
+	j["employees"][0].clear();
+	j["employees"].push_back(child);
+	for (json o : j["employees"]) {
+	std::cout << o["Date Of Birth"] << '\n';
+	std::cout << o["Password"] << '\n';
+	std::cout << o["Phone"] << '\n';
+	std::cout << o["Salary"] << '\n';
+
+
+
+
+		json jss =  fop->searchInDatabase("employees", 1212);
+	if (jss.is_null())
+		std::cout << "Employee" << " Not Found !! ";
+
+		.
+
+
+
+		// Update 
+
+		json employeeJosnObject = fop->searchInDatabase("employees", 0);   //Find And Get The Object 
+	   employeeJosnObject["password"] = "1234";  // Update Object Data
+      fop->updateToDatabase(0, employeeJosnObject, "employees");  // Save Object To The Database
+
+	}*/
+
+	
+
+
+	Employee* employee = new Employee();
+
+
 	system("color C");
 
-
 	cout << "\n\tEnter first name: ";
-	cin >> fname;
-	set_fname(fname);
-	cin.clear();
+	employee->set_fname(Helper::readString(cin));
 
 	cout << "\n\tEnter Last name: ";
-	cin >> lname;
-	set_lname(lname);
-	cin.clear();
+	employee->set_lname(Helper::readString(cin));
 
-	string temp_phone;
 	cout << "\n\tEnter phone number: ";
-	cin >> temp_phone;
-	cin.clear();
-	if (temp_phone.length() == 11)
-	{
-		phone = temp_phone;
-		set_phone(phone);
-	}
-	else
-	{
-		while (temp_phone.length() != 11)
-		{
-			cout << "phone number must be 11 digit\n";
-			cout << "\n input chone number: ";
-			cin >> temp_phone;
-			phone = temp_phone;
-			set_phone(phone);
-		}
-	}
+	employee->set_phone(Helper::readString(cin,true,11));
 
-	cout << "\n\tEnter Birthday(01/01/1900): ";
-	cin >> data_of_birthday;
-	set_dataOfBirthday(data_of_birthday);
-	cin.ignore();
-
+	cout << "\n\tEnter Birthday(DD/MM/YYYY): ";
+	employee->set_dataOfBirthday(Helper::readString(cin));
+	
 	cout << "\n\tEnter Designation: ";
-	cin >> designation;
-	setDesignation(designation);
-	cin.clear();
+	employee->setDesignation(Helper::readInt(cin));
 
 	cout << "\n\tEnter Employee Age: ";
-	cin >> age;
-	setAge(age);
-	cin.clear();
+	employee->setAge(Helper::readInt(cin));
 
 	cout << "\n\tEnter Employee Experience: ";
-	cin >> experience;
-	setExperience(experience);
-	cin.clear();
+	employee->setExperience(Helper::readInt(cin));
 
-	char atype = '\0';
 	cout << "\n\tSelect Accounts Type(Savings s / Creating c): ";
-	cin >> atype;
-	if (tolower(atype) == 's')
-	{
-		type = "Saved";
-		setType(type);
-	}
+	char atype = Helper::readChar(cin);
+	
+	if (tolower(atype) == 'c')
+		employee->setType("Created");
 	else
-	{
-		type = "Created";
-		setType(type);
-	}
-
-	int id = get_last_index_Employee();
-	set_Id(id);
-	cout << "\n\tYour Accounts Number: " << get_Id();
+		employee->setType("Savings");
 	cout << "\n\tEnter password (min 4 digit): ";
-	cin >> password;
-	set_Pass(password);
+	set_Pass(Helper::readInt(cin));
 
 	cout << "\n\t Enter Primary salary: ";
-	cin >> salary;
-	setSalary(salary);
+	setSalary(Helper::readDouble(cin));
+
+
 	
-	/*ofstream file("Employee_details.txt", ios::out | ios::app);
-	file << fname << " " << lname << " " << phone << " " << data_of_birthday << " " << designation << " "
-		<< age << " " << experience << " " << type << " " << id << " "
-		<< password << " " << salary << endl;
-	cout << endl;
-	number_system_put_Employee(id);
-	file.close();*/
+	fop->insertToDatabase(employee->getJson(), "employees");
+
+
+
 
 	cout << "\n Employee Account Created";
 }

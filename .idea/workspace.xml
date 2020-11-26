@@ -1,17 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="bank_M_System" targetName="bank_M_System" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="342431b3-fa8d-4b03-9e40-35ae6b257754" name="Default Changelist" comment="README.MD">
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/Account.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Account.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/Admin.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Admin.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/Employee.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Employee.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/Encrypt.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Encrypt.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/FileOps.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/FileOps.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/Menu.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Menu.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/Menu_Main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Menu_Main.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/Person.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Person.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/Welcome.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/Welcome.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.exe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.log" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.tlog/bank_M_System.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.tlog/bank_M_System.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/bank_M_System.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/bank_M_System.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank_M_System.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/bank_M_System.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank_M_System.vcxproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/bank_M_System.vcxproj.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -25,10 +85,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bank_M_System" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bank_M_System" TARGET_NAME="bank_M_System" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="bank_M_System" RUN_TARGET_NAME="bank_M_System">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -47,7 +124,11 @@
       <option name="presentableId" value="Default" />
       <updated>1605482579396</updated>
       <workItem from="1605482583432" duration="97000" />
-      <workItem from="1605482714228" duration="854000" />
+      <workItem from="1605482714228" duration="909000" />
+      <workItem from="1605483888653" duration="84000" />
+      <workItem from="1605484002545" duration="1185000" />
+      <workItem from="1605485352636" duration="872000" />
+      <workItem from="1605486412977" duration="741000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1605482775643</created>
@@ -63,11 +144,30 @@
       <option name="project" value="LOCAL" />
       <updated>1605483349771</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="README.MD">
+      <created>1605483599295</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605483599295</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
@@ -75,25 +175,48 @@
     <option name="LAST_COMMIT_MESSAGE" value="README.MD" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605486047478">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605486047478" />
     <state x="631" y="291" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605482803828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="631" y="291" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605482803828" />
-    <state x="177" y="71" width="1582" height="888" key="SettingsEditor" timestamp="1605482684627">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1605485369757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="177" y="71" width="1582" height="888" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605482684627" />
-    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1605483352737">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605485369757" />
+    <state x="177" y="71" width="1582" height="888" key="SettingsEditor" timestamp="1605484327107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605483352737" />
+    <state x="177" y="71" width="1582" height="888" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605484327107" />
+    <state x="569" y="261" width="930" height="540" key="StructurePopup" timestamp="1605484858497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="569" y="261" width="930" height="540" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605484858497" />
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1605483602719">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605483602719" />
     <state x="714" y="395" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605482745146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="395" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605482745146" />
-    <state x="539" y="5" key="search.everywhere.popup" timestamp="1605482628629">
+    <state x="539" y="5" width="672" height="678" key="search.everywhere.popup" timestamp="1605486081418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605482628629" />
+    <state x="539" y="5" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605486081418" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Account.cpp</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

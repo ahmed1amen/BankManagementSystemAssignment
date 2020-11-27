@@ -32,10 +32,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="342431b3-fa8d-4b03-9e40-35ae6b257754" name="Default Changelist" comment="Refactoring">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="342431b3-fa8d-4b03-9e40-35ae6b257754" name="Default Changelist" comment="add git ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +101,7 @@
       <workItem from="1605484002545" duration="1185000" />
       <workItem from="1605485352636" duration="872000" />
       <workItem from="1605486412977" duration="741000" />
-      <workItem from="1606434849912" duration="291000" />
+      <workItem from="1606434849912" duration="381000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1605482775643</created>
@@ -134,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606434878421</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add git ignore">
+      <created>1606435190455</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606435190456</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +162,8 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="README.MD" />
     <MESSAGE value="Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+    <MESSAGE value="add git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add git ignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605486047478">
@@ -181,10 +186,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="569" y="261" width="930" height="540" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605484858497" />
-    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1606434895655">
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2" timestamp="1606435197217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606434895655" />
+    <state x="452" y="186" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606435197217" />
     <state x="714" y="395" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605482745146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
